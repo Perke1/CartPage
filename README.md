@@ -1,3 +1,3 @@
-Meme generator using react
+Cart Page project using Context and TailwindCSS.
 
-Import your image, add text and export it ;)
+Live demo: https://tranquil-melba-1ad9e8.netlify.app/
