@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.box {
+  left: 300px;
+  position: relative;
+  text-shadow: 0 0 10px black;
+  max-width: 30%;
+  word-wrap: break-word;
+  overflow: hidden;
+  height: fit-content;
+}
+
+form {
+  position: relative;
+  top: 50px;
+  left: 335px;
+  width: 500px;
+  height: 200px;
+  border: 4px dashed black;
+}
+
+form p {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 19px;
+  line-height: 160px;
+  color: black;
+}
+
+.upload {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+}
+
+.box img {
+  display: block;
+  max-height: 100%;
+}
+
+.toptext {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  overflow: hidden;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  max-width: 100%;
+  max-height: 50%;
+}
+
+.bottext {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  overflow: hidden;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  max-width: 100%;
+  max-height: 50%;
+}
+
+.labels {
+  position: absolute;
+  top: 180px;
+  right: 300px;
+}
+
+.labels input {
+  border: 1px solid #ccc;
+  padding: 7px 14px 9px;
+  box-sizing: border-box;
+}
+
+.labels p {
+  font-size: 19px;
+}
+
+.buttons {
+  position: absolute;
+  right: 295px;
+  top: 400px;
+}
+
+.buttons button {
+  margin: 10px;
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 0.375em;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-size: 1rem;
+  height: 2.5em;
+  text-align: center;
+  padding: 0px 15px;
+  cursor: pointer;
+}
+
+#title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.essa {
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+nav {
+  padding: 5px;
+}
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.book-list {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.book-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+.book-list li {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
